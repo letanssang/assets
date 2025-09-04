@@ -1,0 +1,13 @@
+import core.widgets;
+import material.widgets;
+
+widget root = Column(
+  children: [
+    Text(text: "Hello from Remote UI 👋"),
+    SizedBox(height: 20.0),
+    ElevatedButton(
+      child: Text(text: "Press me"),
+      onPressed: event "buttonPressed" {}
+    ),
+  ],
+);
