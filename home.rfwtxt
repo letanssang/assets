@@ -1,9 +1,26 @@
 import core.widgets;
 import material.widgets;
+import custom;
 
-widget root = Column(
-  children: [
-    Text(text: "Hello from Remote UI 👋"),
-    SizedBox(height: 20.0),
-  ],
+
+widget homeAppBar = HomeAppBar(
+  networkImageUrl: "https://i.pinimg.com/474x/17/c0/93/17c093ab14f21034382e0782517fd8a6.jpg",
 );
+
+widget menuFeatureSection = MenuFeatureSection(
+iconColor: 0xFFFFFFFF,
+iconBackgroundColor: 0xFFDA251D,
+iconWidget: Icon(
+  icon: 58873,
+  fontFamily: "MaterialIcons",
+  color: 0xFFFFEE00,
+  size: 32.0,
+)
+);
+
+widget eventNow = TestLiveNow(
+  liveImageUrl: "https://i.ytimg.com/vi/YRRHXzMIWHY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBncfXmE1kdHJx3uqleW3Fpmdvotw",
+  labelText: "Trực tiếp Lễ Diễu Binh, Xem ngay"
+
+);
+
