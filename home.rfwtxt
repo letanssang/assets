@@ -10,6 +10,7 @@ widget homeAppBar = HomeAppBar(
 widget menuFeatureSection = MenuFeatureSection(
 iconColor: 0xFFFFFFFF,
 iconBackgroundColor: 0xFFDA251D,
+crossAxisCount: 4,
 iconWidget: Icon(
   icon: 58873,
   fontFamily: "MaterialIcons",
