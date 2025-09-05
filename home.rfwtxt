@@ -18,5 +18,9 @@ iconWidget: Icon(
 )
 );
 
+widget eventNow = TestLiveNow(
+  liveImageUrl: "https://i.ytimg.com/vi/YRRHXzMIWHY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBncfXmE1kdHJx3uqleW3Fpmdvotw",
+  labelText: "Trực tiếp Lễ Diễu Binh, Xem ngay"
 
+);
 
