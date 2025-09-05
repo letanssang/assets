@@ -24,7 +24,3 @@ widget eventNow = TestLiveNow(
   labelText: "Trực tiếp Lễ Diễu Binh, Xem ngay"
 );
 
-widget newsHomeSection = NewsHomeSection(
-isHorizontal: true,
-);
-
