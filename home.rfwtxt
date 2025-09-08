@@ -3,6 +3,9 @@ import material.widgets;
 import custom;
 
 
+widget homeAppBar = HomeAppBar(
+  networkImageUrl: "https://i.pinimg.com/474x/17/c0/93/17c093ab14f21034382e0782517fd8a6.jpg",
+);
 
 widget menuFeatureSection = MenuFeatureSection(
 iconColor: 0xFFFFFFFF,
